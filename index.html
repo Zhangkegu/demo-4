@@ -27,7 +27,7 @@
 					<a href="">Forgot username or password?</a>
 				</li>
 				<li>
-					<input type="button" value="Login">
+					<input type="button" value="Login" id="btn">
 				</li>
 			</ul>
 		</form>
@@ -38,4 +38,10 @@
 		</div>
 	</div>
 </body>
+<script>
+	var btn=document.querySelector("#btn");
+	btn.onclick=function () {
+		alert("登录成功！");
+    }
+</script>
 </html>
